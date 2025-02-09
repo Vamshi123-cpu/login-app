@@ -1,10 +1,9 @@
 <build>
     <plugins>
-        <!-- Updated Maven WAR Plugin -->
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
-            <version>3.3.1</version> <!-- Updated to a stable version -->
+            <version>3.3.1</version>
             <configuration>
                 <warSourceDirectory>src/main/webapp</warSourceDirectory>
             </configuration>
